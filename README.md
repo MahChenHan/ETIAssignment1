@@ -55,17 +55,20 @@ MySQL is used for the persistent storage of user and trip information.
             +-----------------------+
 
 # Setting Up and Running Microservices
+
 ## Prerequisites
 Go installed on your system
 MySQL database
+
 ## Installation
 Clone the repository from GitHub.
 Import the provided SQL script (carpooling.sql) into your MySQL database.
+
 ## Running Microservices
-User Service: Navigate to the user_service directory and run go run console.go.
-Trip Service: Navigate to the trip_service directory and run go run console.go.
-Database Service: Navigate to the database_service directory and run go run console.go.
-Authentication Service: Navigate to the auth_service directory and run go run console.go.
+* User Service: Navigate to the user_service directory and run go run console.go.
+* Trip Service: Navigate to the trip_service directory and run go run console.go.
+* Database Service: Navigate to the database_service directory and run go run console.go.
+* Authentication Service: Navigate to the auth_service directory and run go run console.go.
 
 Note: Ensure that the database connection strings in each microservice's code match your MySQL database settings.
 
