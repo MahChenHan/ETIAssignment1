@@ -28,37 +28,37 @@ Prompts inputs and acts as a 'console'.
 Handles user choices such as logging in, enrolling in trips, registering, updating information, deleting accounts, and managing trips.
 Drivers can publish carpooling trips, start their trips, or cancel hosted trips.
 
-###Database Microservice
+### Database Microservice
 Connects the database and the console.
 Is called upon by the main application with the necessary inputs to perform functions such as creating, deleting, and updating users.
 
 ## Database Tables
 ### User
-UserID
-FirstName
-LastName
-MobileNumber
-EmailAddress
-IsCarOwner
-LicenseNumber
-CarPlateNumber
-DateOfCreation
+*UserID
+*FirstName
+*LastName
+*MobileNumber
+*EmailAddress
+*IsCarOwner
+*LicenseNumber
+*CarPlateNumber
+*DateOfCreation
 
 ### Trip
-TripID
-PickupLocations
-StartTravelingTime
-DestinationAddress
-MaxPassengers
-EnrolledPassengers
-CarOwnerID
-TripStatus
+*TripID
+*PickupLocations
+*StartTravelingTime
+*DestinationAddress
+*MaxPassengers
+*EnrolledPassengers
+*CarOwnerID
+*TripStatus
 
 ### PassengerTrip
-PassengerTripID
-PassengerID
-PassengerEmail
-DriverID
-DriverEmail
-TripID
-TripCompleted
+*PassengerTripID
+*PassengerID
+*PassengerEmail
+*DriverID
+*DriverEmail
+*TripID
+*TripCompleted
