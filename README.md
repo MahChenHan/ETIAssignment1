@@ -26,7 +26,7 @@ Users can update their information, including name, mobile number, and email add
 Car owners provide additional details such as driver's license and car plate number during registration.
 Accounts can be deleted, but only if the user has been inactive for at least one year.
 
-### Data Persistence
+## Data Persistence
 
 MySQL is used for the persistent storage of user and trip information.
 
@@ -65,13 +65,21 @@ Clone the repository from GitHub.
 Import the provided SQL script (carpooling.sql) into your MySQL database.
 
 ## Running Microservices
+
 ### User Service 
+
 Navigate to the user_service directory and run go run console.go.
+
 ### Trip Service
+
 Navigate to the trip_service directory and run go run console.go.
+
 ### Database Service
+
 Navigate to the database_service directory and run go run console.go.
+
 ### Authentication Service 
+
 Navigate to the auth_service directory and run go run console.go.
 
 Note: Ensure that the database connection strings in each microservice's code match your MySQL database settings.
