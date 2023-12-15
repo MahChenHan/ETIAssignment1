@@ -1,6 +1,6 @@
 # ETI Assignment1
 
-# Overview
+## Overview
 This project is a car-pooling platform implemented in Go, featuring a microservices architecture. The platform enables users to register, publish car-pooling trips, and search for available trips.
 
 Features
