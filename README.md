@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Go-based project is a car-pooling platform featuring user authentication, trip creation, and management functionalities. Users can register, log in, create car-pooling trips, join existing trips, and manage their profiles.
+This is a car-pooling platform implementing Go featuring user authentication, trip creation, and management functionalities. Users can register, log in, create car-pooling trips, join existing trips, and manage their profiles.
 
 ## Features
 
