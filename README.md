@@ -34,31 +34,31 @@ Is called upon by the main application with the necessary inputs to perform func
 
 ## Database Tables
 ### User
-*UserID
-*FirstName
-*LastName
-*MobileNumber
-*EmailAddress
-*IsCarOwner
-*LicenseNumber
-*CarPlateNumber
-*DateOfCreation
+* UserID
+* FirstName
+* LastName
+* MobileNumber
+* EmailAddress
+* IsCarOwner
+* LicenseNumber
+* CarPlateNumber
+* DateOfCreation
 
 ### Trip
-*TripID
-*PickupLocations
-*StartTravelingTime
-*DestinationAddress
-*MaxPassengers
-*EnrolledPassengers
-*CarOwnerID
-*TripStatus
-
+* TripID
+* PickupLocations
+* StartTravelingTime
+* DestinationAddress
+* MaxPassengers
+* EnrolledPassengers
+* CarOwnerID
+* TripStatus
+ 
 ### PassengerTrip
-*PassengerTripID
-*PassengerID
-*PassengerEmail
-*DriverID
-*DriverEmail
-*TripID
-*TripCompleted
+* PassengerTripID
+* PassengerID
+* PassengerEmail
+* DriverID
+* DriverEmail
+* TripID
+* TripCompleted
