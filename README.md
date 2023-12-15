@@ -12,7 +12,7 @@ Car owners can provide additional information such as driver's license number an
 
 ### Trip Management
 Car owners can publish car-pooling trips with details like pick-up locations, start times, destinations, and available seats.
-Passengers can search and enroll in available trips.
+Passengers can search and enrol in available trips.
 
 ### Data Persistence
 
